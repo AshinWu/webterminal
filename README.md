@@ -7,9 +7,9 @@ and implements the following simple steps:
 
 * Backspace
 
-* Direction key left and right, up and down (historical command)
+* Direction key left and right, and up and down (historical command)
 
-* Paste copy
+* Paste and copy
 
 Preview:
 
