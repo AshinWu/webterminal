@@ -190,8 +190,16 @@ export default {
 
       // 若需要中文输入, 使用on data监听
       // term.on('data', function(data){
-        // todo something
-      // })
+      //   // todo something
+      //   // 例如：只监听中文 
+      //   // 一般中文只在特殊情况才输入，可以用一个变量标识
+      //   // 比如输入某个指令后将其置为true(回车变为false)，然后再下面if判断标识即可
+      //   let reg = /^[\u4e00-\u9fa5]/
+      //   if (reg.test(data)) {
+      //     term.write(data) 
+      //     this.input += data
+      //   }
+      // }.bind(this))
 
       return term
     },
